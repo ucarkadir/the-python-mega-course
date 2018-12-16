@@ -1,0 +1,21 @@
+nano : py editörü
+
+python3 myprogram.py 
+
+pwd : geçerli olan klasörü belirtir. /home/ucarikadir
+mkdir : yeni bir klasör oluşturma
+touch : yeni bir dosya yaratmak
+rm : dosya silmek için kullanılır. (rm myfile.txt)
+
+/home/ucarikadir/basics    
+cp: cp ../myprogram.py myprogram.py 
+basics klasörüne bir üst dizindeki myprogram.py dosyasını myprogram.py ismi ile kopyala
+
+cp myprogram.py basics/myprog.py
+
+mv: mv myprogram.py basics/myprog.py
+
+rm -r: rm -r basics/
+klasörü siler
+
+clear

@@ -1,0 +1,7 @@
+from geopy.geocoders import Nominatim
+nom = Nominatim()
+to these:
+
+from geopy.geocoders import GoogleV3
+nom = GoogleV3(scheme = "http")
+The rest of the code remains the s

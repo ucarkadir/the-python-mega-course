@@ -1,0 +1,13 @@
+juypter notebook
+
+Unofficial Windows Binaries for Python Extension Packages
+https://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+pip install -U numpy
+
+# 7_lesson_105
+OpenCV : Image processing lib.
+
+pip install opencv-python
+
+import csv2
