@@ -1,7 +1,0 @@
-1. pip install virtualenv
-2. py -m venv virtual
-3. .\virtual\Scripts\python 
-    gittiğin zaman sanal oluşturulan klasör içerisinde dosyaları görebilirsiniz. 
-
-.\virtual\Scripts\pip install flask
-.\virtual\Scripts\python .\Demo\script1.py

@@ -1,0 +1,61 @@
+1. pip install virtualenv
+2. py -m venv virtual
+3. .\virtual\Scripts\python 
+    gittiğin zaman sanal oluşturulan klasör içerisinde dosyaları görebilirsiniz. 
+
+.\virtual\Scripts\pip install flask
+.\virtual\Scripts\python .\Demo\script1.py
+
+--
+
+heroku login
+heroku create ucarkadir
+heroku apps
+
+
+https://ucarkadir.herokuapp.com/
+ | 
+https://git.heroku.com/ucarkadir.git
+
+
+On Demo folder:
+..\mysite\Demo> pip freeze
+
+..\virtual\Scripts\pip.exe freeze
+..\virtual\Scripts\pip.exe install gunicorn
+..\virtual\Scripts\pip.exe freeze > requirements.txt
+
+.\Demo\ 
+git init
+git add .
+git commit -m "first commit"
+heroku git:remote --app ucarkadir 
+git push heroku master
+
+
+eğer hata alırsan:
+
+    git config --global user.email "kadirucartr@gmail.com"
+    git config --global user.name "ucarkadir"
+
+git push heroku master
+heroku open
+heroku info
+
+-----
+
+1. Site'de yapılan değişikleri uzak sunucuya gönderme adımları.
+
+..\virtual\Scripts\python.exe script1.py
+test işlemini local ortamda yaptıktan sonra değişikleri uzak sunucuya atıyoruz.
+
+heroku login
+websayfasına yönlenir.
+heroku info
+heroku git:remote --app ucarkadir
+git add .
+git commit -m "add text to about.html, change heading color"
+git push heroku master
+heroku open
+
+heroku logs
