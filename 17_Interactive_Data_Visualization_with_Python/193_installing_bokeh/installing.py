@@ -49,3 +49,54 @@ jupyter notebook scripts
 then we can show the Line.html file on the browser.
 
 '''
+
+
+''' Solution: 195. Plotting Triangles and Circle Glyphs (Practice) 
+
+#Snippet producing the triangle based plot
+
+#Making a basic Bokeh line graph
+ 
+#importing Bokeh
+from bokeh.plotting import figure
+from bokeh.io import output_file, show
+ 
+#prepare some data
+x=[3,7.5,10]
+y=[3,6,9]
+ 
+#prepare the output file
+output_file("Line.html")
+ 
+#create a figure object
+f=figure()
+ 
+#create line plot
+f.triangle(x,y)
+ 
+#write the plot in the figure object
+show(f)
+#Snippet producing the circle based plot
+
+#Making a basic Bokeh line graph
+ 
+#importing Bokeh
+from bokeh.plotting import figure
+from bokeh.io import output_file, show
+ 
+#prepare some data
+x=[3,7.5,10]
+y=[3,6,9]
+ 
+#prepare the output file
+output_file("Line.html")
+ 
+#create a figure object
+f=figure()
+ 
+#create line plot
+f.circle(x,y)
+ 
+#write the plot in the figure object
+show(f)
+'''
