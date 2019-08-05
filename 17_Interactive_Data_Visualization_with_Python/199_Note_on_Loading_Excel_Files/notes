@@ -1,0 +1,7 @@
+You will need to load an Excel (.xlsx) file in Python with pandas
+
+pip install xlrd 
+
+or
+
+pip3 install xlrd
